@@ -1,12 +1,24 @@
+body {
+    perspective: 1000px;
+}
+
 img {
     width: 300px;
     display: block;
     margin: auto;
     margin-top: 200px;
-    transition: transform 2s;
+    transition: transform 1s;
+    transform-origin: 20% 20%;
+
 }
 
-img:hover{
-    transform: translate(-500px, 200px);
-    
+img:hover {
+    /* moves element */
+    /* transform: translate(-500px, 200px); 
+    transform: scale(2, 2); */
+    /* transform: rotate(360deg); */
+    /* transform: skew(20deg, 40deg); */
+    /* transform: rotate(45deg); */
+    /* transform: translateZ(1001px); */
+    transform: rotateY(90deg);
 }
